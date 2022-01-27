@@ -1,0 +1,30 @@
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  h1 {
+    font-size: 10vh;
+    margin-bottom: 5vh;
+  }
+
+  .form-container {
+    width: 50vw;
+    font-weight: 700;
+    background-color: rgb(88, 136, 240);
+
+    form {
+      padding: 10%;
+
+      button {
+        background-color: burlywood;
+        color: black;
+        font-weight: 700;
+        align-self: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: steelblue;
+  height: 100vh;
+  width: 100vw;
+
+  .categories {
+    width: 30%;
+    text-align: center;
+    margin-top: 10vh;
+
+    h2 {
+      font-size: 10vh;
+      margin-bottom: 5vh;
+    }
+  }
+
+  .form {
+    margin-top: 8vh;
+
+    Button {
+      background-color: blanchedalmond;
+      color: black;
+    }
+  }
+}
